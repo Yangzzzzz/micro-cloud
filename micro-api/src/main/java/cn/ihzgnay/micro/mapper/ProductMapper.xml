@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ihzgnay.micro.dao.ProductMapper" >
+  <resultMap id="BaseResultMap" type="cn.ihzgnay.micro.pojo.Product" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="productId" property="productid" jdbcType="BIGINT" />
+    <result column="productName" property="productname" jdbcType="VARCHAR" />
+    <result column="productDesc" property="productdesc" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
