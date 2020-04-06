@@ -1,4 +1,4 @@
-package cn.ihzgnay.micro.pojo;
+package cn.ihzgnay.micro.model;
 
 import javax.persistence.*;
 

@@ -1,7 +1,7 @@
 package cn.ihzgnay.micro.dao;
 
-import cn.ihzgnay.micro.pojo.Product;
-import cn.ihzgnay.micro.tool.tk.TkMapper;
+import cn.ihzgnay.micro.core.Mapper;
+import cn.ihzgnay.micro.model.Product;
 
-public interface ProductMapper extends TkMapper<Product> {
+public interface ProductMapper extends Mapper<Product> {
 }
